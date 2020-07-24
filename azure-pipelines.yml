@@ -17,7 +17,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: DotNet@2
+- task: UseDotNet@2
   displayName: 'Use .NET Core SDK 3.1.300'
   inputs:
     packageType: sdk
